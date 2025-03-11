@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <Menulist/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Menulist from './components/Menulist';
 import './assets/style.css'
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Menulist,
   },
 
   data: () => ({
